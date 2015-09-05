@@ -3,3 +3,13 @@ body{
   font-weight: 300;
   margin: 50;
 }
+
+.pageSection1 {
+  background-color: #b0c4de;
+  max-width: 100%;
+}
+
+.pageSection2 {
+  background-color: #000000;
+  max-width: 100%;
+}
