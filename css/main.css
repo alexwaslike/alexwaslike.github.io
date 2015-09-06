@@ -96,21 +96,22 @@ div.content{
 .titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
+  background-color: #8ECCA3;
   background-repeat: no-repeat;
 }
 
 .missionSection {
-  background-color: #CCFFCC;
+  background-color: #8ECCA3;
 }
 
 .projectsSection {
-  background-color: #CCCCFF;
+  background-color: #CC8F8E;
 }
 
 .backgroundSection {
-  background-color: #CC99FF;
+  background-color: #7F413F;
 }
 
 .contactSection {
-  background-color: #FFCCFF;
+  background-color: #4C7F5D;
 }
