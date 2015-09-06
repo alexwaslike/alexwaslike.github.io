@@ -58,10 +58,12 @@ img.titleImage{
   left: 0px;
   top: 0px;
   max-width: 100%;
+  padding: -2% -2%;
 }
 
 .titleSection {
   background-color: #B8B8B8;
+  z-index: 1;
   /*background-image: url("http://i.imgur.com/11hixgl.png");
   background-size: 100%;
   background-position: center top;
