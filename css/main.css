@@ -63,11 +63,7 @@ img.titleImage{
 }
 
 .titleSection {
-  height: 50vw;
-  /*background-image: url("http://i.imgur.com/11hixgl.png");
-  background-size: 100%;
-  background-position: center top;
-  background-repeat: no-repeat;*/
+  height: 50vw; /*must be <= ratio of width/height of background image*/
 }
 
 .missionSection {
