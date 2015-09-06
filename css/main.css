@@ -54,7 +54,7 @@ div.content{
 }
 
 img.titleImage{
-  position: relative;
+  position: absolute;
   z-index: -1;
   left: 0px;
   top: 0px;
@@ -63,7 +63,8 @@ img.titleImage{
 }
 
 .titleSection {
-  overflow: auto;
+  overflow: auto;'
+  min-height: 100%;
   height: auto;
   /*background-image: url("http://i.imgur.com/11hixgl.png");
   background-size: 100%;
