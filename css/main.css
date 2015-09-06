@@ -14,7 +14,9 @@ h1 {
 
 .button {
   border: 3px solid white;
+  color: #FFF;
   padding: 3px;
+  margin: auto;
   height: 50px;
   text-transform: uppercase;
 }
