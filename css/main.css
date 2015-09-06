@@ -26,8 +26,12 @@ div {
   padding: 2% 2%;
 }
 
-.missionSection {
+.titleSection {
   background-color: #B8B8B8;
+}
+
+.missionSection {
+  background-color: #CCFFCC;
 }
 
 .projectsSection {
