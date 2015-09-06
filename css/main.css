@@ -24,6 +24,11 @@ a.button {
   text-decoration: none;
 }
 
+a.button:hover {
+  background-color: #FFF;
+  color: rgba(0,0,0, 0.5);
+}
+
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
