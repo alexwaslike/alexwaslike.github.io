@@ -12,6 +12,7 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px #000;
   font-size: x-large;
+  color: #FFF;
 }
 
 /* Page sections:
@@ -27,17 +28,17 @@ div {
 }
 
 .missionSection {
-  background-color: #b0c4de;
+  background-color: #000;
 }
 
 .projectsSection {
-  background-color: #000000;
+  background-color: #CCCCFF;
 }
 
 .backgroundSection {
-  background-color: #b0c4de;
+  background-color: #CC99FF;
 }
 
 .contactSection {
-  background-color: #000000;
+  background-color: #FFCCFF;
 }
