@@ -12,6 +12,13 @@ h1 {
   color: #FFF;
 }
 
+.button {
+  border: 3px solid white;
+  padding: 3px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
