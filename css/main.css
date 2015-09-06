@@ -61,7 +61,7 @@ div {
 div.content{
   width: 50%;
   z-index: 1;
-  height: 100%;
+  height: auto;
   margin: auto;
   text-align: center;
 }
