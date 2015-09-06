@@ -27,6 +27,8 @@ a.button {
 a.button:hover {
   background-color: #FFF;
   color: rgba(0,0,0, 0.5);
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
 }
 
 /* Page sections:
