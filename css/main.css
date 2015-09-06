@@ -48,7 +48,7 @@ div {
 div.content{
   width: 50%;
   z-index: 1;
-  max-height: 100%;
+  height: 100%;
   margin: auto;
   text-align: center;
 }
@@ -63,7 +63,6 @@ img.titleImage{
 }
 
 .titleSection {
-  background-color: none;
   overflow: auto;
   height: 1%;
   /*background-image: url("http://i.imgur.com/11hixgl.png");
