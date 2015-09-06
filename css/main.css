@@ -39,6 +39,25 @@ a.button:hover {
   transition-duration: 0.5s;
 }
 
+a.smallButton{
+  border: .1em solid white;
+  color: #FFF;
+  background-color: rgba(0,0,0, 0.5);
+  padding: .2em;
+  margin: auto;
+  height: 5em;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a.smallButton:hover{
+  background-color: #FFF;
+  color: rgba(0,0,0, 0.5);
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+}
+
 a.navArrow{
   text-align: center;
   font-size: .5em;
