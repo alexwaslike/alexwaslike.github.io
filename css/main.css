@@ -13,14 +13,14 @@ h1 {
 }
 
 a.button {
-  border: 1em solid white;
+  border: .5em solid white;
   color: #FFF;
   background-color: transparent;
   padding: .5em;
   margin: auto;
   height: 10em;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.7em;
   text-decoration: none;
 }
 
