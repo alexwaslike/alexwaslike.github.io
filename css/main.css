@@ -60,7 +60,8 @@ a.smallButton:hover{
 
 a.navArrow{
   text-align: center;
-  font-size: .5em;
+  font-size: 2em;
+  font-weight: 350;
   text-shadow: 2px rgba(0,0,0, 0.5);
   color: #FFF;
 }
