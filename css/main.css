@@ -52,6 +52,14 @@ div.content{
   text-align: center;
 }
 
+img.titleImage{
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+  max-width: 100%;
+}
+
 .titleSection {
   background-color: #B8B8B8;
   background-image: url("http://i.imgur.com/11hixgl.png");
