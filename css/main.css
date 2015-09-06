@@ -21,13 +21,12 @@ Contact
 
 div {
   max-width: 100%;
-  min-height: 800px;
+  min-height: 100%;
   margin: 0px;
   padding: 2% 2%;
 }
 
 .titleSection {
-  min-height: 100%;
   background-color: #B8B8B8;
   background-image: url("http://i.imgur.com/11hixgl.png");
   background-size: 100%;
