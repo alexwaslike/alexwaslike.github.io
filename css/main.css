@@ -39,7 +39,6 @@ Contact
 */
 
 div {
-  min-width: 100%;
   max-width: 100%;
   height: 100vh; 
   margin: 0px;
@@ -57,7 +56,6 @@ div.content{
 .titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
-  background-position: center top;
   background-repeat: no-repeat;
 }
 
