@@ -94,6 +94,15 @@ div.content{
   text-align: center;
 }
 
+div.navArrow{
+  width: 50%;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+}
+
 .titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
