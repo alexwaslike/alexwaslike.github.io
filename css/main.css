@@ -62,10 +62,10 @@ img.titleImage{
 
 .titleSection {
   background-color: #B8B8B8;
-  background-image: url("http://i.imgur.com/11hixgl.png");
+  /*background-image: url("http://i.imgur.com/11hixgl.png");
   background-size: 100%;
   background-position: center top;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .missionSection {
