@@ -4,6 +4,10 @@ body{
   margin: 0;
 }
 
+p {
+  padding: 10% 10%;
+}
+
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
