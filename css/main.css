@@ -15,7 +15,7 @@ h1 {
 a.button {
   border: .3em solid white;
   color: #FFF;
-  background-color: transparent;
+  background-color: rgba(0,0,0, 0.5);
   padding: .5em;
   margin: auto;
   height: 10em;
