@@ -4,14 +4,31 @@ body{
   margin: 50;
 }
 
-.pageSection1 {
-  background-color: #b0c4de;
+/* Page sections:
+Mission (personal statement/ summary)
+Projects (list of all games made with image, link)
+Background (resume)
+Contact
+*/
+
+div {
   max-width: 100%;
   min-height: 300px;
 }
 
-.pageSection2 {
-  background-color: #000000;
-  max-width: 100%;
-  min-height: 300px;
+.missionSection {
+  background-color: #b0c4de;
+  
+}
+
+.projectsSection {
+  background-color: #i000000;
+}
+
+.backgroundSection {
+  background-color: #b0c4de;
+}
+
+.contactSection {
+  background-color: #i000000;
 }
