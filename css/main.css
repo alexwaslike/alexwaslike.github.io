@@ -61,6 +61,7 @@ a.smallButton:hover{
 a.navArrow{
   font-size: 2em;
   font-weight: 350;
+  width: 2em;
   text-shadow: 2px rgba(0,0,0, 0.5);
   color: #FFF;
   text-decoration: none;
@@ -96,22 +97,21 @@ div.content{
 .titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
-  background-color: #8ECCA3;
   background-repeat: no-repeat;
 }
 
 .missionSection {
-  background-color: #8a985a;
+  background-color: #FFF;
 }
 
 .projectsSection {
-  background-color: #A5A997;
+  background-color: #FFF;
 }
 
 .backgroundSection {
-  background-color: #8a985a;
+  background-color: #FFF;
 }
 
 .contactSection {
-  background-color: #A5A997;
+  background-color: #FFF;
 }
