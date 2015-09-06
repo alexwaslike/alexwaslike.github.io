@@ -44,12 +44,8 @@ img.icon {
   width: 256px;
 }
 
-a.arrowFloat {
-  content: "\A71B";
-}
-
 a.arrowFloat:hover {
-  transform: translateZ(0);
+  transform: translateY(-10px);
   transition-duration: 0.3s;
   transition-property: transform;
   transition-timing-function: ease-out;
