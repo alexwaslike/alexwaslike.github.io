@@ -39,6 +39,7 @@ Contact
 */
 
 div {
+  min-width: 100%;
   max-width: 100%;
   height: 100vh; 
   margin: 0px;
@@ -51,15 +52,6 @@ div.content{
   height: 100%;
   margin: auto;
   text-align: center;
-}
-
-img.titleImage{
-  position: absolute;
-  z-index: -1;
-  left: 0px;
-  top: 0px;
-  max-width: 100%;
-  padding: -2% -2%;
 }
 
 .titleSection {
