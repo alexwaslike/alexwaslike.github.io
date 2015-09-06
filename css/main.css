@@ -39,6 +39,11 @@ a.button:hover {
   transition-duration: 0.5s;
 }
 
+img.icon {
+  height: 144px;
+  width: 256px;
+}
+
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
