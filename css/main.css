@@ -63,9 +63,7 @@ img.titleImage{
 }
 
 .titleSection {
-  overflow: auto;'
-  min-height: 800px;
-  height: auto;
+  height: 80vh;
   /*background-image: url("http://i.imgur.com/11hixgl.png");
   background-size: 100%;
   background-position: center top;
