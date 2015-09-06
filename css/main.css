@@ -38,6 +38,11 @@ div {
   padding: 2% 2%;
 }
 
+div.content{
+  width: 30%;
+  margin: auto;
+}
+
 .titleSection {
   background-color: #B8B8B8;
   background-image: url("http://i.imgur.com/11hixgl.png");
