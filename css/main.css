@@ -59,11 +59,11 @@ a.smallButton:hover{
 }
 
 a.navArrow{
-  text-align: center;
   font-size: 2em;
   font-weight: 350;
   text-shadow: 2px rgba(0,0,0, 0.5);
   color: #FFF;
+  text-decoration: none;
 }
 
 img.icon {
@@ -105,13 +105,13 @@ div.content{
 }
 
 .projectsSection {
-  background-color: #7287A5;
+  background-color: #A5A997;
 }
 
 .backgroundSection {
-  background-color: #E4887C;
+  background-color: #DFE4CC;
 }
 
 .contactSection {
-  background-color: #434B25;
+  background-color: #5C653C;
 }
