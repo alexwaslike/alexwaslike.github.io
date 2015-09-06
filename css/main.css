@@ -39,6 +39,13 @@ a.button:hover {
   transition-duration: 0.5s;
 }
 
+a.navArrow{
+  text-align: center;
+  font-size: .5em;
+  text-shadow: 2px rgba(0,0,0, 0.5);
+  color: #FFF;
+}
+
 img.icon {
   height: 144px;
   width: 256px;
