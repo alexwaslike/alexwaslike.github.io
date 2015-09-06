@@ -44,13 +44,6 @@ img.icon {
   width: 256px;
 }
 
-a.arrowFloat:hover {
-  transform: translateY(-10px);
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
-}
-
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
