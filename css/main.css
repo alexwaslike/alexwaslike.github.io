@@ -64,12 +64,12 @@ a.navArrow{
   font-size: 2em;
   font-weight: 350;
   width: 2em;
-  color: #FFF;
+  color: rgba(0,0,0, 0.5);
   text-decoration: none;
 }
 
 a.navArrow:hover{
-  color: rgba(0,0,0, 0.5);
+  color: #FFF;
   transition-property: color, background-color;
   transition-duration: 0.4s;
 }
