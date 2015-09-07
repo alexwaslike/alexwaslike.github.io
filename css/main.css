@@ -14,7 +14,6 @@ h1 {
   font-size: 5em;
   text-shadow: 3px 3px rgba(0,0,0, 0.5);
   color: #FFF;
-  text-indent: 1em;
 }
 
 h2 {
@@ -40,6 +39,7 @@ h4 {
   font-style: italic;
   font-weight: bold;
   display: inline;
+  text-indent: 1em;
 }
 
 /* ------------------------ LINKS/BUTTONS ------------------------ */
@@ -160,6 +160,13 @@ div.content{
   text-indent: 1em;
 }
 
+div.titleSection {
+  height: 50vw; /*must be <= ratio of width/height of background image*/
+  background-image: url("http://i.imgur.com/11hixgl.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
 div.projectContent{
   width: auto;
   z-index: 1;
@@ -178,6 +185,13 @@ div.projectItem{
   background-color: transparent;
 }
 
+div.footer {
+  max-width: 100%;
+  color: #E6E6E6;
+  background-color: #000;
+  text-align: center;
+}
+
 div.navArrow{
   width: 50%;
   z-index: 1;
@@ -186,18 +200,4 @@ div.navArrow{
   text-align: center;
   padding: 0px;
   background-color: transparent;
-}
-
-div.titleSection {
-  height: 50vw; /*must be <= ratio of width/height of background image*/
-  background-image: url("http://i.imgur.com/11hixgl.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
-
-div.footer {
-  max-width: 100%;
-  color: #E6E6E6;
-  background-color: #000;
-  text-align: center;
 }
