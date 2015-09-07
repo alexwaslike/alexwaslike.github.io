@@ -90,7 +90,6 @@ div {
   margin: 0px;
   padding: 2% 2%;
   background-color: #E6E6E6;
-  text-indent: 1em;
 }
 
 div.content{
@@ -98,8 +97,9 @@ div.content{
   z-index: 1;
   height: auto;
   margin: auto;
-  text-align: right;
+  text-align: left;
   background-color: transparent;
+  text-indent: 1em;
 }
 
 div.projectContent{
