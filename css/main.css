@@ -140,6 +140,14 @@ img.titleImage{
   width: 100vw;
 }
 
+a.imageLink{
+  background-color: transparent;
+}
+
+a.imageLink:hover{
+  background-color: transparent;
+}
+
 /* ------------------------ LAYOUT ------------------------ */
 
 div {
