@@ -61,9 +61,8 @@ a.smallButton:hover{
 }
 
 a.navArrow{
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 350;
-  width: 2em;
   color: rgba(0,0,0, 0.5);
   text-decoration: none;
 }
