@@ -105,7 +105,8 @@ div.project{
   width: auto;
   margin: auto;
   padding: .5% .5%;
-  text-align: right;
+  text-align: left;
+  display: inline;
 }
 
 div.navArrow{
