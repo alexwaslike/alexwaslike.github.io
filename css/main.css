@@ -40,6 +40,19 @@ h4 {
   display: inline;
 }
 
+/* ------------------------ LISTS ------------------------ */
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: .1em;
+  margin: .1em;
+}
+
+ul li{
+  display: inline-block
+}
+
 /* ------------------------ LINKS/BUTTONS ------------------------ */
 
 a{
