@@ -26,6 +26,11 @@ h3 {
   font-size: 1.5em;
 }
 
+h4 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 a.button {
   border: .3em solid white;
   color: #FFF;
