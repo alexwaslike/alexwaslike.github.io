@@ -69,6 +69,11 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
+a.imageLink{
+  border: .2em solid white;
+  color: #FFF;
+}
+
 a.navArrow{
   font-size: 1em;
   font-weight: 350;
