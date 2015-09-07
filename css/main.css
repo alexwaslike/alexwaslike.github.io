@@ -90,6 +90,7 @@ div {
   margin: 0px;
   padding: 2% 2%;
   background-color: #E6E6E6;
+  text-indent: 1em;
 }
 
 div.content{
