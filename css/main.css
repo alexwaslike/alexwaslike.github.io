@@ -86,6 +86,10 @@ img.icon {
   width: 300px;
 }
 
+img.titleImage{
+  max-width: 100%;
+}
+
 /* Page sections:
 Mission (personal statement/ summary)
 Projects (list of all games made with image, link)
