@@ -1,8 +1,12 @@
+/* ------------------------ GENERAL ------------------------ */
+
 body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin: 0;
 }
+
+/* ------------------------ HEADERS ------------------------ */
 
 h1 {
   text-align: center;
@@ -10,6 +14,7 @@ h1 {
   font-size: 5em;
   text-shadow: 3px 3px rgba(0,0,0, 0.5);
   color: #FFF;
+  text-indent: 1em;
 }
 
 h2 {
@@ -31,10 +36,13 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-style: italic;
+  font-weight: bold;
   display: inline;
 }
+
+/* ------------------------ LINKS/BUTTONS ------------------------ */
 
 a{
   font-weight: bold;
@@ -101,18 +109,20 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
-a.navArrow{
+a.footerNavArrow{
   font-size: 1em;
   font-weight: 350;
-  color: rgba(0,0,0, 0.5);
+  color: #E6E6E6;
   text-decoration: none;
 }
 
-a.navArrow:hover{
-  color: #000;
-  transition-property: color;
+a.footerNavArrow:hover{
+  color: #FFF;
+  transition-property: color, background-color;
   transition-duration: 0.4s;
 }
+
+/* ------------------------ IMAGES ------------------------ */
 
 img.icon {
   width: 300px;
@@ -130,12 +140,7 @@ img.titleImage{
   width: 100vw;
 }
 
-/* Page sections:
-Mission (personal statement/ summary)
-Projects (list of all games made with image, link)
-Background (resume)
-Contact
-*/
+/* ------------------------ LAYOUT ------------------------ */
 
 div {
   max-width: 100%;
@@ -195,17 +200,4 @@ div.footer {
   color: #E6E6E6;
   background-color: #000;
   text-align: center;
-}
-
-a.footerNavArrow{
-  font-size: 1em;
-  font-weight: 350;
-  color: #E6E6E6;
-  text-decoration: none;
-}
-
-a.footerNavArrow:hover{
-  color: #FFF;
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
 }
