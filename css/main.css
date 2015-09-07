@@ -73,6 +73,22 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
+a{
+  font-weight: bold;
+  color: #808080;
+}
+
+a:visited{
+  color: #999999;
+}
+
+a:hover{
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+  color: #FFF;
+  background-color: #808080;
+}
+
 a.navArrow{
   font-size: 1em;
   font-weight: 350;
@@ -82,7 +98,7 @@ a.navArrow{
 
 a.navArrow:hover{
   color: #000;
-  transition-property: color, background-color;
+  transition-property: color;
   transition-duration: 0.4s;
 }
 
