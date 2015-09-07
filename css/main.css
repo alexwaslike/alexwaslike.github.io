@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 a.button {
@@ -112,6 +112,7 @@ div.projectContent{
   height: auto;
   margin: auto;
   text-align: center;
+  vertical-align: center;
   background-color: transparent;
 }
 
