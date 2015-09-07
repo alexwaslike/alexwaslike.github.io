@@ -101,6 +101,14 @@ div.content{
   text-align: center;
 }
 
+div.projectContent{
+  width: auto;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
 div.projectItem{
   width: auto;
   margin: auto;
