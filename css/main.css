@@ -101,6 +101,13 @@ div.content{
   text-align: center;
 }
 
+div.project{
+  width: auto;
+  margin: auto;
+  padding: .5% .5%;
+  text-align: right;
+}
+
 div.navArrow{
   width: 50%;
   z-index: 1;
