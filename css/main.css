@@ -168,7 +168,7 @@ div.content{
 }
 
 div.titleSection {
-  height: 50vw; /*must be <= ratio of width/height of background image*/
+  min-height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
   background-repeat: no-repeat;
   background-color: transparent;
