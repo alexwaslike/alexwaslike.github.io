@@ -69,11 +69,6 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
-img.imageLink{
-  border: .2em solid white;
-  color: #FFF;
-}
-
 a.navArrow{
   font-size: 1em;
   font-weight: 350;
@@ -89,6 +84,14 @@ a.navArrow:hover{
 
 img.icon {
   width: 300px;
+  border: .2em solid white;
+  color: #FFF;
+  opacity: .5;
+}
+
+img.icon:hover{
+  transition: .3s ease-in-out;
+	opacity: 1;
 }
 
 img.titleImage{
