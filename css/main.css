@@ -137,7 +137,20 @@ div.titleSection {
 
 div.footer {
   max-width: 100%;
-  color: #FFF;
+  color: #E6E6E6;
   background-color: #000;
   text-align: center;
+}
+
+a.footerNavArrow{
+  font-size: 1em;
+  font-weight: 350;
+  color: #E6E6E6;
+  text-decoration: none;
+}
+
+a.footerNavArrow:hover{
+  color: #FFF;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
 }
