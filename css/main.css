@@ -98,7 +98,7 @@ div.content{
   height: auto;
   margin: auto;
   text-align: center;
-  background-color: none;
+  background-color: transparent;
 }
 
 div.projectContent{
@@ -107,7 +107,7 @@ div.projectContent{
   height: auto;
   margin: auto;
   text-align: center;
-  background-color: none;
+  background-color: transparent;
 }
 
 div.projectItem{
@@ -115,7 +115,7 @@ div.projectItem{
   margin: auto;
   padding: .5% .5%;
   display: inline-block;
-  background-color: none;
+  background-color: transparent;
 }
 
 div.navArrow{
@@ -125,18 +125,18 @@ div.navArrow{
   margin: auto;
   text-align: center;
   padding: 0px;
-  background-color: none;
+  background-color: transparent;
 }
 
 div.titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
   background-repeat: no-repeat;
-  background-color: none;
+  background-color: transparent;
 }
 
 div.footer {
-  width: 100%;
+  max-width: 100%;
   color: #FFF;
   background-color: #000;
   text-align: center;
