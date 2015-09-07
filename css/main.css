@@ -35,6 +35,23 @@ h4 {
   font-style: italic;
 }
 
+a{
+  font-weight: bold;
+  color: #5C5C5C;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #808080;
+}
+
+a:hover{
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+  color: #FFF;
+  background-color: #5C5C5C;
+}
+
 a.button {
   border: .3em solid white;
   color: #FFF;
@@ -45,6 +62,10 @@ a.button {
   text-transform: uppercase;
   font-size: 1.7em;
   text-decoration: none;
+}
+
+a.button:visited{
+  color: #FFF;	
 }
 
 a.button:hover {
@@ -66,28 +87,15 @@ a.smallButton{
   text-decoration: none;
 }
 
+a.smallButton:visited{
+  color: #FFF;
+}
+
 a.smallButton:hover{
   background-color: #FFF;
   color: rgba(0,0,0, 0.5);
   transition-property: color, background-color;
   transition-duration: 0.4s;
-}
-
-a{
-  font-weight: bold;
-  color: #5C5C5C;
-  text-decoration: none;
-}
-
-a:visited{
-  color: #808080;
-}
-
-a:hover{
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
-  color: #FFF;
-  background-color: #5C5C5C;
 }
 
 a.navArrow{
