@@ -101,7 +101,7 @@ div.content{
 }
 
 div.projectContent{
-  width: auto;
+  width: 400px;
   z-index: 1;
   height: auto;
   margin: auto;
@@ -112,7 +112,6 @@ div.projectItem{
   width: 30%;
   margin: auto;
   padding: .5% .5%;
-  text-align: left;
   display: table-cell;
 }
 
