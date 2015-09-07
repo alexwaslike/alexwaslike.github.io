@@ -17,7 +17,7 @@ h2 {
   vertical-align: 100px;
   font-size: 3em;
   text-shadow: 2px 2px rgba(0,0,0, 0.5);
-  color: #FFF;
+  color: #000;
   margin-top: .3em;
   margin-bottom: .6em;
 }
@@ -117,17 +117,17 @@ div.navArrow{
 }
 
 .missionSection {
-  background-color: #FFF;
+  background-color: #E6E6E6;
 }
 
 .projectsSection {
-  background-color: #FFF;
+  background-color: #E6E6E6;
 }
 
 .backgroundSection {
-  background-color: #FFF;
+  background-color: #E6E6E6;
 }
 
 .contactSection {
-  background-color: #FFF;
+  background-color: #E6E6E6;
 }
