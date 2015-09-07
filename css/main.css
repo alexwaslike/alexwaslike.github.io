@@ -22,6 +22,10 @@ h2 {
   margin-bottom: .6em;
 }
 
+h3 {
+  font-size: 2em;
+}
+
 a.button {
   border: .3em solid white;
   color: #FFF;
