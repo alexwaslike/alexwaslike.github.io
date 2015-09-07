@@ -123,24 +123,14 @@ div.navArrow{
   padding: 0px;
 }
 
-.titleSection {
+div.titleSection {
   height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
   background-repeat: no-repeat;
 }
 
-.missionSection {
-  background-color: #E6E6E6;
-}
-
-.projectsSection {
-  background-color: #E6E6E6;
-}
-
-.backgroundSection {
-  background-color: #E6E6E6;
-}
-
-.contactSection {
-  background-color: #E6E6E6;
+div.footer {
+  width: 100%;
+  color: #FFF;
+  background-color: #000;
 }
