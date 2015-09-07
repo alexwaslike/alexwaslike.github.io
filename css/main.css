@@ -110,7 +110,7 @@ div.projectContent{
 }
 
 div.projectItem{
-  width: auto;
+  width: 30%;
   margin: auto;
   padding: .5% .5%;
   text-align: left;
