@@ -35,8 +35,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em;
-  font-style: italic;
+  font-size: 1.2em;
   font-weight: bold;
   display: inline;
   text-indent: 1em;
@@ -47,7 +46,6 @@ h4 {
 a{
   font-weight: bold;
   color: #5C5C5C;
-  text-decoration: none;
 }
 
 a:visited{
@@ -55,10 +53,11 @@ a:visited{
 }
 
 a:hover{
-  transition-property: color, background-color;
+  transition-property: color, background-color, text-decoration;
   transition-duration: 0.4s;
   color: #FFF;
   background-color: #5C5C5C;
+  text-decoration: none;
 }
 
 a.button {
