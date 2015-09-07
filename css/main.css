@@ -69,7 +69,7 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
-a.imageLink{
+img.imageLink{
   border: .2em solid white;
   color: #FFF;
 }
