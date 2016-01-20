@@ -1,8 +1,7 @@
 /* ------------------------ GENERAL ------------------------ */
 
 body{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
   margin: 0;
 }
 
@@ -19,7 +18,7 @@ h1 {
 h1.subtitle {
   text-align: center;
   font-size: 1.5em;
-  font-style: bold;
+  font-weight: bold;
   color: #FFF;
   text-transform: uppercase;
 }
@@ -32,13 +31,13 @@ h2 {
   margin-top: .3em;
   margin-bottom: .6em;
   text-transform: uppercase;
-  font-style: bold;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.5em;
   text-transform: uppercase;
-  font-style: bold;
+  font-weight: bold;
 }
 
 h4 {
