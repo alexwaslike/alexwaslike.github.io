@@ -193,6 +193,15 @@ div.titleSection {
   background-color: transparent;
 }
 
+nav{
+  z-index: 1;
+  line-height: 6em;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
 div.projectContent{
   width: auto;
   z-index: 1;
