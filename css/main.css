@@ -178,7 +178,7 @@ div {
 }
 
 div.content{
-  width: 50%;
+  width: 60%;
   z-index: 1;
   height: auto;
   margin: auto;
@@ -190,6 +190,15 @@ div.titleSection {
   min-height: 50vw; /*must be <= ratio of width/height of background image*/
   background-image: url("http://i.imgur.com/11hixgl.png");
   background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+nav{
+  z-index: 1;
+  line-height: 6em;
+  height: auto;
+  margin: auto;
+  text-align: center;
   background-color: transparent;
 }
 
