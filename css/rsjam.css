@@ -22,7 +22,7 @@ div.titleSection {
 
 nav{
   z-index: 1;
-  line-height: 3em;
+  line-height: 3em; 
   height: auto;
   margin: auto;
   text-align: center;
@@ -33,7 +33,7 @@ nav{
 
 h1 {
   text-align: left;
-  vertical-align: 100px;
+  vertical-align: 6em;
   font-size: 6em;
   color: #FFF;
   font-family: 'Oswald', 'Helvetica', sans-serif;
