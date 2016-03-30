@@ -1,0 +1,52 @@
+/* ------------------------ GENERAL ------------------------ */
+
+body{
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  margin: 0;
+  background-color: #F0D9D3;
+}
+
+/* ------------------------ LAYOUT ------------------------ */
+
+div {
+  max-width: 100%;
+  height: auto; 
+  margin: 0px;
+  padding: 2% 2%;
+  background-color: #8A4259;
+}
+
+div.titleSection {
+  background-color: #8A4259;
+}
+
+nav{
+  z-index: 1;
+  line-height: 3em;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: #4A2430;
+}
+
+/* ------------------------ HEADERS ------------------------ */
+
+h1 {
+  text-align: center;
+  vertical-align: 100px;
+  font-size: 3em;
+  color: #FFF;
+}
+
+/* ------------------------ LISTS ------------------------ */
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: .1em;
+  margin: .1em;
+}
+
+ul li{
+  display: inline-block
+}
