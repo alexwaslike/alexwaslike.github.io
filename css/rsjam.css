@@ -32,9 +32,15 @@ nav{
 /* ------------------------ HEADERS ------------------------ */
 
 h1 {
-  text-align: center;
+  text-align: left;
   vertical-align: 100px;
-  font-size: 3em;
+  font-size: 6em;
+  color: #FFF;
+  font-family: 'Oswald', 'Helvetica', sans-serif;
+}
+
+h1.subtitle{
+  font-size: 2em;
   color: #FFF;
 }
 
