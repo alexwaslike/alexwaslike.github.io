@@ -43,10 +43,51 @@ h1 {
 ul {
   display: inline-block;
   list-style-type: none;
-  padding: .1em;
-  margin: .1em;
+  padding: 0;
+  margin: 0;
 }
 
 ul li{
   display: inline-block
+}
+
+/* ------------------------ LINKS & BUTTONS ------------------------ */
+
+a.tab {
+  display: block;
+  font-weight: 500;
+  color: #F0D9D3;
+  background-color: rgba(0,0,0, 0.5);
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: auto;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a.tabcurrent {
+  display: block;
+  font-weight: 500;
+  color: #000;
+  background-color: #F0D9D3;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: auto;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a.tab:hover {
+  background-color: #F0D9D3;
+  color: #000;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
 }
