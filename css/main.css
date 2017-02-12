@@ -1,238 +1,95 @@
 /* ------------------------ GENERAL ------------------------ */
-
+ 
 body{
   font-family: 'Open Sans', 'Helvetica', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #CCCCFF;
+}
+
+p{
+  margin: 0em 0em 1em 0em;
 }
 
 /* ------------------------ HEADERS ------------------------ */
 
 h1 {
-  text-align: center;
-  vertical-align: 150px;
+  font-family: 'Amatic SC', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
   font-size: 5em;
-  text-shadow: 3px 3px rgba(0,0,0, 0.5);
-  color: #FFF;
-}
-
-h1.subtitle {
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #FFF;
-  text-transform: uppercase;
 }
 
 h2 {
-  text-align: center;
-  font-size: 3em;
-  text-shadow: 2px 2px rgba(0,0,0, 0.5);
-  color: #000;
-  margin-top: .3em;
-  margin-bottom: .6em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 1.2em;
-  font-weight: bold;
-  display: inline;
-}
-
-/* ------------------------ LISTS ------------------------ */
-
-ul {
-  display: inline-block;
-  list-style-type: none;
-  padding: .1em;
-  margin: .1em;
-}
-
-ul li{
-  display: inline-block
-}
-
-/* ------------------------ LINKS/BUTTONS ------------------------ */
-
-a{
-  font-weight: bold;
-  color: #5C5C5C;
-}
-
-a:visited{
-  color: #808080;
-}
-
-a:hover{
-  transition-property: color, background-color, text-decoration;
-  transition-duration: 0.4s;
-  color: #FFF;
-  background-color: #5C5C5C;
-  text-decoration: none;
-}
-
-a.button {
-  font-weight: 300;
-  border: .3em solid white;
-  color: #FFF;
-  background-color: rgba(0,0,0, 0.5);
-  padding: .5em;
-  margin: auto;
-  height: 10em;
-  text-transform: uppercase;
-  font-size: 1.7em;
-  text-decoration: none;
-}
-
-a.button:visited{
-  color: #FFF;	
-}
-
-a.button:hover {
-  background-color: #FFF;
-  color: rgba(0,0,0, 0.5);
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
-}
-
-a.smallButton{
-  font-weight: 300;
-  border: .1em solid white;
-  color: #FFF;
-  background-color: rgba(0,0,0, 0.5);
-  padding: .2em;
-  margin: auto;
-  height: 5em;
-  text-transform: uppercase;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-a.smallButton:visited{
-  color: #FFF;
-}
-
-a.smallButton:hover{
-  background-color: #FFF;
-  color: rgba(0,0,0, 0.5);
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
-}
-
-a.footerNavArrow{
-  font-size: 1em;
-  font-weight: 350;
-  color: #E6E6E6;
-  text-decoration: none;
-}
-
-a.footerNavArrow:hover{
-  color: #FFF;
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
+  font-size: 2em;
+  margin: 0;
+  padding: 0em 0em 0.5em 0em;
 }
 
 /* ------------------------ IMAGES ------------------------ */
 
 img.icon {
-  width: 300px;
-  border: .2em solid white;
+  margin: 0 auto;
   color: #FFF;
-  opacity: .5;
+  opacity: 1;
   background-color: transparent;
+  max-width: 100%;
+  max-height: 300px;
 }
 
 img.icon:hover{
   transition: .3s ease-in-out;
-  opacity: 1;
+  opacity: .7;
   background-color: transparent;
 }
 
-img.titleImage{
-  width: 100vw;
-}
+/* ------------------------ DECOR ------------------------ */
 
-a.imageLink{
-  background-color: transparent;
-}
-
-a.imageLink:hover{
-  background-color: transparent;
+hr {
+  border: 0;
+  height: 0;
+  border-top: 5px solid rgba(255, 255, 255, 0.3);
 }
 
 /* ------------------------ LAYOUT ------------------------ */
 
-div {
-  max-width: 100%;
-  height: auto; 
-  margin: 0px;
-  padding: 2% 2%;
-  background-color: #E6E6E6;
+div.container{
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.title{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0em 0em 2em 2em;
+  text-align: left;
 }
 
 div.content{
-  width: 60%;
-  z-index: 1;
+  position: relative;
+  width: 100%;
   height: auto;
   margin: auto;
+  padding: 1em;
   text-align: left;
-  background-color: transparent;
+  font-size: 0.7em;
+  overflow: hidden;
 }
 
-div.titleSection {
-  min-height: 50vw; /*must be <= ratio of width/height of background image*/
-  background-image: url("http://i.imgur.com/11hixgl.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
-
-nav{
-  z-index: 1;
-  line-height: 6em;
+div.content-left{
+  display: block;
+  float: left;
+  width: 30%;
   height: auto;
-  margin: auto;
-  text-align: center;
-  background-color: transparent;
 }
 
-div.projectContent{
-  width: auto;
-  z-index: 1;
+div.content-right{
+  display: block;
+  float: right;
+  width: 67%;
+  margin-left: 3%;
   height: auto;
-  margin: auto;
-  text-align: center;
-  background-color: transparent;
-}
-
-div.projectItem{
-  width: 400px;
-  margin: auto;
-  padding: .5% .5%;
-  display: inline-block;
-  vertical-align: middle;
-  background-color: transparent;
-}
-
-div.footer {
-  max-width: 100%;
-  color: #E6E6E6;
-  background-color: #000;
-  text-align: center;
-}
-
-div.navArrow{
-  width: 50%;
-  z-index: 1;
-  height: auto;
-  margin: auto;
-  text-align: center;
-  padding: 0px;
-  background-color: transparent;
 }
